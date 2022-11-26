@@ -1,0 +1,41 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta 
+        http-equiv="X-UA-Compatible"
+        content="IE=edge">
+    <meta 
+        name="viewport" 
+        content="width=device-width, initial-scale=1.0">
+    <title>Firebase 9</title>
+</head>
+<body>
+    <h1>Firebase 9 Toturial</h1>
+
+    <div>
+        <h1>Add Data to Collection</h1>
+        <form class="addData">
+            <div>
+                <label for="title">Title</label>
+                <input type="text" name="title" id="title" required>
+            </div><br>
+            <div>
+                <label for="author">Author</label>
+                <input type="text" name="author" id="author" required>
+            </div><br>
+            <button>Add</button>
+        </form>
+    </div>
+
+    <div>
+        <h1>Delete Data from Firestore Database</h1>
+        <form class="deleteData">
+            <label for="id">Enter Book ID to delete</label>
+            <input type="text" name="id" id="id" required>
+            <button>Delete</button>
+        </form>
+    </div>
+
+    <script src="bundle.js"></script>
+</body>
+</html>
